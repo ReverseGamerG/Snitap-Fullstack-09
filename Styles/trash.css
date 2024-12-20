@@ -1,0 +1,21 @@
+.rotative{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3rem;
+  background-color: var(--snitap-joy-light);
+  animation:  rotative-in 3s 2s ease infinite,
+  rotative-back 3s 5s infinite ease both;
+}
+
+@keyframes rotative-in{
+  100%{
+    background-color: var(--snitap-sky-light);
+  }
+}
+
+@keyframes rotative-back{
+  100%{
+    background-color: var(--snitap-joy-light);
+  }
+}

@@ -9,6 +9,7 @@
     flex-direction: column-reverse;
     padding: 1rem 2.5rem;
     overflow: unset;
+    gap: 3rem;
     
     & h1{
       max-width: 19.5rem;
